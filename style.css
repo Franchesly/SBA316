@@ -1,0 +1,106 @@
+
+
+/* General Styles */
+body {
+  background-image: url(images/plantbackground.jpg);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d7ea91b2;
+  color: #1a2c29;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+/* Header Section */
+h1 {
+  text-align: center;
+  color: #d7ea91(87, 29%, 14%);
+}
+
+/* Section Styles */
+.section {
+  background-color: rgba(215, 234, 145, 0.714);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  color: #1d4520;
+  margin-bottom: 15px;
+}
+
+/* Plant Form */
+.plant-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.plant-form input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccccccbd;
+  border-radius: 5px;
+  margin: auto;
+  /* margin-bottom: 15px; */
+}
+
+.plant-form button {
+  background-color: #6c7842;
+  color: rgba(255, 255, 255, 0.826);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plant-form button:hover {
+  background-color: #353b20;
+}
+
+/* Plant Care */
+.tips ul {
+  padding-left: 20px;
+}
+
+.tips ul li {
+  margin-bottom: 10px;
+}
+
+/* Saved Plants */
+.saved-plants .plant-card {
+  background-color: #e3f2f1e4;
+  border: 1px solid #cccccc8c;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#clear-plants {
+    color: white;
+    background-color: #6c7842;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear-plants:hover {
+    background-color: #353b20;
+}
+
+.plant-image {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}

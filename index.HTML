@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Plant Care Assistant</h1>
+            <p>Welcome to your personal plant care assistant. Add your plants, learn how to care for them, and save their details for future reference!</p>
+        </div>
+
+        
+        <div class="section plant-form">
+            <div class="section-title">Add Your Plant</div>
+            <form id="plant-form">
+                <label for="plant-name">Plant Name:</label>
+                <input type="text" id="plant-name" placeholder="e.g., Monstera" required>
+
+                <label for="plant-type">Plant Type:</label>
+                <input type="text" id="plant-type" placeholder="e.g., Indoor" required>
+
+                <label for="plant-location">Plant Location:</label>
+                <input type="text" id="plant-location" placeholder="e.g., Near window (direct sun)" required>
+
+                <label for="Soil-type">Soil Type:</label>
+                <input type="text" id="soil-type" placeholder="e.g., Perlite" required>
+
+                
+                <br><br>
+                <button type="submit">Save Plant Info</button>
+            </form>
+        </div>
+
+        <!--Plant Care Tips -->
+       
+        <div class="section tips">
+            <div class="section-title">General Plant Care Tips</div>
+            <ul>
+                <li>Water your plants as needed; check the soil moisture first.</li>
+                <li>Ensure your plants get the right amount of sunlight for their type.</li>
+                <li>Use a suitable pot with drainage holes to prevent overwatering.</li>
+                <li>Fertilize your plants periodically for healthy growth.</li>
+            </ul>
+        </div>
+        
+
+        <!--Saved Plant Info -->
+        <div class="section">
+            <div class="section-title">Your Saved Plants</div>
+            <div id="saved-plants" class="saved-plants">
+                <p>No plants saved yet. Add a plant to see its details here!</p>
+            </div>
+            <button id="clear-plants">Clear All Saved Plants</button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
